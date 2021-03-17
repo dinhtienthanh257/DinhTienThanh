@@ -1,0 +1,8 @@
+int* getPointerToTen()
+{
+    int* iPtr = new int;
+    int num = 10;
+    *iPtr = num;
+
+    return iPtr;
+}
